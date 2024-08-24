@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int biggest() {
 
   double n1, n2, n3;
 
