@@ -19,3 +19,6 @@ printf("\nEnter string to reverse");
     rev[i] = str[j];
     j--;
   }
+
+  printf("\nString After Reverse: %s", rev);
+}
