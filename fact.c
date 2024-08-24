@@ -2,7 +2,7 @@
 int factorial() {
     int n, i;
     unsigned long long fact = 1;
-    printf(\n"Enter an integer: "\n);
+    printf("\nEnter an integer: \n");
     scanf("%d", &n);
 
     // shows error if the user enters a negative integer
@@ -12,7 +12,7 @@ int factorial() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf(\n"Factorial of %d = %llu", n, fact\n);
+        printf("\nFactorial of %d = %llu\n", n, fact);
     }
 
     return 0;
